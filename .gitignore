@@ -1,0 +1,2 @@
+# avoid pushing compiled packer file after moving updated nvim config if setting up outside dotfiles
+mackup/.config/nvim/plugin/*
