@@ -16,9 +16,7 @@ brew install lsd
 brew install mackup
 brew install neofetch
 brew install neovim
-brew install pgcli
 brew install ripgrep
-brew install tealdeer
 brew install tmux
 brew install zoxide
 
