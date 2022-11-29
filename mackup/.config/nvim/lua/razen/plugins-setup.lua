@@ -34,14 +34,7 @@ return packer.startup(function(use)
 	use("nvim-lua/plenary.nvim")
 
 	-- colorscheme
-	use({
-		"olivercederborg/poimandres.nvim",
-		config = function()
-			require("poimandres").setup({
-				disable_italics = true,
-			})
-		end,
-	})
+	use("EdenEast/nightfox.nvim")
 
 	-- tmux & split window navigation
 	use("christoomey/vim-tmux-navigator")
@@ -63,6 +56,9 @@ return packer.startup(function(use)
 
 	-- statusline
 	use("nvim-lualine/lualine.nvim")
+
+	-- cooler tabs
+	use("nanozuki/tabby.nvim")
 
 	-- fuzzy finding w/ telescope
 	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
