@@ -46,6 +46,7 @@ export EDITOR="nvim"
 alias lg="lazygit"
 alias ls="lsd -a"
 alias find="fd"
+alias z="zoxide"
 
 # nvm stuff
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

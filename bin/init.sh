@@ -22,6 +22,7 @@ brew install neovim
 brew install ripgrep
 brew install tmux
 brew install zoxide
+brew install zsh
 
 brew tap clementtsang/bottom
 brew install bottom
