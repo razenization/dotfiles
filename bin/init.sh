@@ -1,6 +1,6 @@
 #/bin/bash
 
-cd ~ && mkdir repos && cd repos
+cd ~ && mkdir repos && cd repos && rm -rf dotfiles
 git clone git@github.com:razenization/dotfiles.git dotfiles
 
 brew install bash
