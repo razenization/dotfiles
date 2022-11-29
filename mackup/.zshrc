@@ -12,7 +12,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="minimal"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
@@ -44,8 +44,13 @@ export EDITOR="nvim"
 
 # Aliases
 alias lg="lazygit"
-alias ls="lsd"
+alias ls="lsd -a"
 alias find="fd"
 
 # nvm stuff
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# pure prompt
+fpath+=$HOME/.zsh/pure
+autoload -U promptinit; promptinit
+prompt pure

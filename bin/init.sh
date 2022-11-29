@@ -39,6 +39,10 @@ nvm install 'lts/*'
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ~/.tmux/plugins/tpm/bin/install_plugins
 
+# pure prompt
+mkdir -p "$HOME/.zsh"
+git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
+
 # casks
 if [[ $PLATFORM == 'macos' ]]; then
    brew install --cask alacritty
