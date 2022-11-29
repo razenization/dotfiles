@@ -84,7 +84,7 @@ colors:
       foreground: "0x1b1e28"
       background: "0xadd7ff"
 
-    bar:
+    footer_bar:
       foreground: "0x1b1e28"
       background: "0xadd7ff"
 
