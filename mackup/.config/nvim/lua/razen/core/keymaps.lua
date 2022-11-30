@@ -57,10 +57,5 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available 
 -- restart lsp server
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
 
--- utilities
-keymap.set("n", "<leader>g", ":lua vim.api.nvim_command('lazygit')") -- lazygit
-keymap.set("n", "<leader>r", ":lua vim.api.nvim_command('lazydocker')") -- lazydocker
-keymap.set("n", "<leader>l", ":lua vim.api.nvim_command('lf')") -- lazydocker
-
 -- select all matches
 keymap.set("n", "<leader>d", ":set hlsearch!<CR>", { noremap = true, silent = true })
