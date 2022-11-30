@@ -26,16 +26,16 @@ keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
 keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
 
 -- maybe im too lazy to do 3 buttons
-keymap.set("n", "<leader>1", ":tabn 1", { noremap = true, silent = true })
-keymap.set("n", "<leader>2", ":tabn 2", { noremap = true, silent = true })
-keymap.set("n", "<leader>3", ":tabn 3", { noremap = true, silent = true })
-keymap.set("n", "<leader>4", ":tabn 4", { noremap = true, silent = true })
-keymap.set("n", "<leader>5", ":tabn 5", { noremap = true, silent = true })
-keymap.set("n", "<leader>6", ":tabn 6", { noremap = true, silent = true })
-keymap.set("n", "<leader>7", ":tabn 7", { noremap = true, silent = true })
-keymap.set("n", "<leader>8", ":tabn 8", { noremap = true, silent = true })
-keymap.set("n", "<leader>9", ":tabn 9", { noremap = true, silent = true })
-keymap.set("n", "<leader>0", ":tabn 0", { noremap = true, silent = true })
+keymap.set("n", "<leader>1", ":tabn 1<CR>", { noremap = true, silent = true })
+keymap.set("n", "<leader>2", ":tabn 2<CR>", { noremap = true, silent = true })
+keymap.set("n", "<leader>3", ":tabn 3<CR>", { noremap = true, silent = true })
+keymap.set("n", "<leader>4", ":tabn 4<CR>", { noremap = true, silent = true })
+keymap.set("n", "<leader>5", ":tabn 5<CR>", { noremap = true, silent = true })
+keymap.set("n", "<leader>6", ":tabn 6<CR>", { noremap = true, silent = true })
+keymap.set("n", "<leader>7", ":tabn 7<CR>", { noremap = true, silent = true })
+keymap.set("n", "<leader>8", ":tabn 8<CR>", { noremap = true, silent = true })
+keymap.set("n", "<leader>9", ":tabn 9<CR>", { noremap = true, silent = true })
+keymap.set("n", "<leader>0", ":tabn 0<CR>", { noremap = true, silent = true })
 
 ----------------------
 -- Plugin Keybinds
