@@ -55,3 +55,7 @@ export NVM_DIR="$HOME/.nvm"
 fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
 prompt pure
+
+# alt-left / alt-right
+bindkey "^[[1;3C" forward-word
+bindkey "^[[1;3D" backward-word
