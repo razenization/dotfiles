@@ -43,7 +43,7 @@ if [[ $o_flag != true ]]; then
 fi
 
 # mackup
-cp -a ~/repos/dotfiles/files/.mackup.cfg ~/.mackup.cfg
+cp -a ~/repos/dotfiles/mackup/.mackup.cfg ~/.mackup.cfg
 mackup restore
 
 # nvm https://github.com/nvm-sh/nvm
