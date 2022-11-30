@@ -6,8 +6,8 @@ cd repos
 if [ "$(ls -A ./dotfiles)" ]
 then
   cd dotfiles
-  git fetch
   git reset --hard HEAD
+  git pull
 else
   git clone git@github.com:razenization/dotfiles.git dotfiles
 fi
@@ -43,7 +43,7 @@ if [[ $o_flag != true ]]; then
 fi
 
 # mackup
-cp ~/repos/dotfiles/mackup/.mackup.cfg ~/.mackup.cfg
+cp ~/repos/dotfiles/config/.mackup.cfg ~/.mackup.cfg
 mackup restore
 
 # nvm https://github.com/nvm-sh/nvm
