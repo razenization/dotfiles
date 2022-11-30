@@ -58,4 +58,4 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available 
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
 
 -- select all matches
-keymap.set("n", "<leader>d", ":set hlsearch!<CR>", { noremap = true, silent = true })
+keymap.set("n", "<leader>hd", ":set hlsearch!<CR>", { noremap = true, silent = true })
