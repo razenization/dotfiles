@@ -6,7 +6,8 @@ cd repos
 if [ "$(ls -A ./dotfiles)" ]
 then
   cd dotfiles
-  git pull
+  git fetch
+  git reset --hard HEAD
 else
   git clone git@github.com:razenization/dotfiles.git dotfiles
 fi
