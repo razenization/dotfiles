@@ -44,7 +44,6 @@ export EDITOR="nvim"
 alias lg="lazygit"
 alias ls="lsd -a"
 alias find="fd"
-alias z="zoxide"
 
 # nvm stuff
 export NVM_DIR="$HOME/.nvm"
