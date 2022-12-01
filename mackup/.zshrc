@@ -60,4 +60,4 @@ bindkey "^[[1;3C" forward-word
 bindkey "^[[1;3D" backward-word
 
 # init zoxide to add "z" command
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
