@@ -37,6 +37,8 @@ if [[ $o_flag != true ]]; then
   brew install tmux
   brew install zoxide
   brew install zsh
+  brew install tealdeer
+  brew install pnpm
 
   brew tap clementtsang/bottom
   brew install bottom
