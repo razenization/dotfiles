@@ -48,7 +48,7 @@ fi
 
 # mackup
 cp -a ~/repos/dotfiles/mackup/.mackup.cfg ~/.mackup.cfg
-cp -aR ~/repos/dotfiles/mackup/.mackup ~/.mackup
+cp -a ~/repos/dotfiles/mackup/.mackup ~/.mackup
 mackup restore
 rm -rf ~/.mackup
 rm ~/.mackup.cfg
