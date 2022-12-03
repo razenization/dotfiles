@@ -48,7 +48,10 @@ fi
 
 # mackup
 cp -a ~/repos/dotfiles/mackup/.mackup.cfg ~/.mackup.cfg
+cp -aR ~/repos/dotfiles/mackup/.mackup ~/.mackup
 mackup restore
+rm -rf ~/.mackup
+rm ~/.mackup.cfg
 
 # nvm https://github.com/nvm-sh/nvm
 mkdir ~/.nvm
@@ -67,6 +70,7 @@ if [[ $PLATFORM == 'macos' ]]; then
    brew install --cask alacritty
    # brew install --cask obsidian         
    brew install --cask postman          
+   brew install --cask neovide
 fi
 
 echo "In case nvm didn't populate path, add these lines to .zshrc file:
