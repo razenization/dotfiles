@@ -39,6 +39,8 @@ if [[ $o_flag != true ]]; then
   brew install zsh
   brew install tealdeer
   brew install pnpm
+  brew install python
+  brew install bottom
 
   brew tap clementtsang/bottom
   brew install bottom
