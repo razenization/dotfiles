@@ -40,7 +40,6 @@ if [[ $o_flag != true ]]; then
   brew install tealdeer
   brew install pnpm
   brew install python
-  brew install bottom
 
   brew tap clementtsang/bottom
   brew install bottom
@@ -66,7 +65,7 @@ mkdir -p "$HOME/.zsh"
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
 # casks
-if [[ $PLATFORM == 'macos' ]]; then
+if [[ $o_flag != true ]]; then
    brew install --cask alacritty
    # brew install --cask obsidian         
    brew install --cask postman          
