@@ -1,9 +1,9 @@
 # Use tall and fullscreen layouts
 layouts:
   - fullscreen
-  - floating
   - two-pane
-  - 3column-left
+  - floating
+  - bsp
 
 # Add "command" to the default mods
 mod1:
