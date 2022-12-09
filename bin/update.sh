@@ -39,7 +39,8 @@ if [[ $o_flag != true ]]; then
   brew install zsh
   brew install tealdeer
   brew install pnpm
-  brew install python
+  brew intall python
+  brew instal gh
 
   brew tap clementtsang/bottom
   brew install bottom
@@ -70,6 +71,8 @@ if [[ $o_flag != true ]]; then
    # brew install --cask obsidian         
    brew install --cask postman          
    brew install --cask neovide
+   brew install --cask amethyst
+   brew install --cask karabiner-elements
 fi
 
 echo "In case nvm didn't populate path, add these lines to .zshrc file:

@@ -1,0 +1,73 @@
+# Use tall and fullscreen layouts
+layouts:
+  - fullscreen
+  - floating
+  - two-pane
+  - 3column-left
+
+# Add "command" to the default mods
+mod1:
+  - option
+  - shift
+mod2:
+  - option
+  - shift
+  - control
+  - command
+
+# Add 10px margin between windows
+window-margins: true
+window-margin-size: 10
+
+# Bindings
+cycle-layout:
+  mod: mod2
+  key: space
+    
+focus-cw:
+  mod: mod2
+  key: j
+
+focus-cw:
+  mod: mod2
+  key: k
+    
+expand-main:
+  mod: mod2
+  key: l 
+
+shrink-main:
+    mod: mod2
+    key: h
+
+swap-main:
+  mod: mod2
+  key: r
+
+throw-space-1:
+  mod: mod2
+  key: 1
+    
+throw-space-2:
+  mod: mod2
+  key: 2
+    
+throw-space-3:
+  mod: mod2
+  key: 3
+    
+throw-space-4:
+  mod: mod2
+  key: 4
+    
+throw-space-5:
+  mod: mod2
+  key: 5
+    
+throw-space-6:
+  mod: mod2
+  key: 6
+    
+relaunch-amethyst:
+  mod: mod2
+  key: x
