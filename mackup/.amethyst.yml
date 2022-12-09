@@ -19,6 +19,14 @@ mod2:
 window-margins: true
 window-margin-size: 10
 
+# Allow using mouse to resize/move
+mouse-resizes-windows: true
+mouse-swaps-windows: true
+
+# Disable weird things
+focus-follows-mouse: false
+mouse-follows-focus: false
+
 # Bindings
 cycle-layout:
   mod: mod2
